@@ -1,0 +1,297 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#tagline {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+#tagline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* 
+.col {
+    display: flex;
+    align-items: center;
+} */
+
+.textSection2 {
+    width: fit-content;
+    height: fit-content;
+}
+
+#img1 {
+    background: 'Assets/Padar.jepg';
+}
+
+.row-1 {
+    text-align: left;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-2 {
+    margin-left: 70px;
+    margin-top: 100px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.row-3 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.tripReservation {
+    background: #011C1D;
+}
+
+#tripText {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+#boat-img {
+    border-radius: 20px;
+}
+
+#boat-type,
+#price,
+#include {
+    font-weight: bold;
+}
+
+
+#boat-type {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 70px;
+}
+
+#boat-type-desc {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#price-desc {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .include-list {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
+
+li {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.col-6-1 {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.col-6-2 {
+    margin-top: 30px;
+}
+
+#price {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+
+}
+
+#include {
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+#htlTxt {
+    color: #000;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+.hotels {
+    margin-bottom: 50px;
+}
+
+.col-1-htl-img {
+    width: 417px;
+    height: 540px;
+    margin-top: 80px;
+    border: 2px solid #333;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* fotonya gabisa */
+    /* background-image: url("../Assets/resort-1.jpg"); */
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.event-2 {
+    background-color: #011C1D;
+}
+
+#titleTxt {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 60px;
+}
+
+
+/* CSS untuk Swiper */
+.mySwiper {
+    width: 100%;
+    padding: 50px 0;
+}
+
+/* CSS untuk setiap slide */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS untuk container hotel */
+.hotel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* CSS untuk gambar di tengah */
+.main-img {
+    width: 80%;
+    height: 300px;
+    /* Sesuaikan tinggi dengan keinginan */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* CSS untuk gambar di samping */
+.side-img {
+    width: 60%;
+    height: 200px;
+    /* Sesuaikan tinggi dengan keinginan */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* CSS untuk deskripsi hotel */
+.hotel-description {
+    margin-top: 10px;
+}
+
+.see-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    /* warna link putih */
+    font-size: 20px;
+    /* ukuran font */
+    font-weight: 600;
+    transition: color 0.3s ease;
+    /* efek transisi saat dihover */
+}
+
+.see-more-link:hover {
+    color: #f0f0f0;
+    /* warna link saat dihover */
+}
